@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api'; // Change if deploying
+const API_URL = 'https://sheshield-h0ou.onrender.com/api'; // Change if deploying
 
 const api = axios.create({
   baseURL: API_URL,
